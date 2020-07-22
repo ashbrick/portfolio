@@ -154,6 +154,13 @@ main {
         color: set-text-color($secondary-color);
       }
     }
+
+    a {
+      &:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+    }
   }
 }
 
